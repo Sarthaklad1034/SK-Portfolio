@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useAuth } from '../hooks/useAuth';
-import Dashboard from '../components/admin/Dashboard';
-import ProjectManager from '../components/admin/ProjectManager';
-import SkillsManager from '../components/admin/SkillsManager';
-import MessageCenter from '../components/admin/MessageCenter';
-import ExperienceManager from '../components/admin/ExperienceManager';
+import { useAuth } from '@/hooks/useAuth';
+import Dashboard from '@/components/admin/Dashboard';
+import ProjectManager from '@/components/admin/ProjectManager';
+import SkillsManager from '@/components/admin/SkillsManager';
+import MessageCenter from '@/components/admin/MessageCenter';
+import ExperienceManager from '@/components/admin/ExperienceManager';
 
 const DashboardPage = () => {
   const [activeTab, setActiveTab] = useState('overview');
