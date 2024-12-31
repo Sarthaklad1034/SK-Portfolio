@@ -1,7 +1,11 @@
 {
     "version": 2,
-    "routes": [{
-        "src": "/(.*)",
-        "dest": "/client/index.html"
+    "builds": [{
+        "src": "client/package.json",
+        "use": "@vercel/static-build",
+        "config": {
+            "buildCommand": "cd client && node verify-paths.js && npm install && npm run build",
+            "outputDirectory": "client/dist"
+        }
     }]
 }
