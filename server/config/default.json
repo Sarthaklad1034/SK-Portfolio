@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://sarthaklad1034:Sarthak786@my-portfolio.vyfdl.mongodb.net/?retryWrites=true&w=majority&appName=My-Portfolio",
+    "jwtSecret": "c03179cb2e8bafff560142e90e9ac7458d2f5daede22f0cdb6cec72ce975b726",
+    "nodeEnv": "development"
+}
